@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form</title>
+</head>
+<body>
+    <h1>User Information Form</h1>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone_number">Phone Number:</label><br>
+        <input type="tel" id="phone_number" name="phone_number"><br>
+        <label for="academic_qualification">Academic Qualification:</label><br>
+        <textarea id="academic_qualification" name="academic_qualification"></textarea><br>
+        <label for="projects">Projects:</label><br>
+        <textarea id="projects" name="projects"></textarea><br>
+        <label for="tech_skills">Technical Skills:</label><br>
+        <textarea id="tech_skills" name="tech_skills"></textarea><br>
+        <label for="soft_skills">Soft Skills:</label><br>
+        <textarea id="soft_skills" name="soft_skills"></textarea><br>
+        <label for="areas_of_interest">Areas of Interest:</label><br>
+        <textarea id="areas_of_interest" name="areas_of_interest"></textarea><br>
+        <label for="hobbies">Hobbies:</label><br>
+        <textarea id="hobbies" name="hobbies"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
